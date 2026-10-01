@@ -2,8 +2,8 @@
 { config, pkgs, ... }:
 
 {
-  home.username = "user";
-  home.homeDirectory = "/home/user";
+  home.username = "oleg";
+  home.homeDirectory = "/home/oleg";
   home.stateVersion = "25.05";
 
   # --- Helix ---
@@ -39,8 +39,8 @@
   # --- Git ---
   programs.git = {
     enable = true;
-    userName = "User";
-    userEmail = "user@example.com";
+    userName = "oleg";
+    userEmail = "oleg@example.com";
     extraConfig = {
       init.defaultBranch = "main";
       pull.rebase = true;
