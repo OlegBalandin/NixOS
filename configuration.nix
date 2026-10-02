@@ -26,7 +26,7 @@
   # Замените UUID на реальный — узнайте через: blkid /dev/sda3
   boot.swapDevices = [
     {
-      device = "/dev/disk/by-uuid/REPLACE_WITH_YOUR_SWAP_UUID";
+      device = "/dev/disk/by-uuid/sda3";
       priority = 10;
     }
   ];
