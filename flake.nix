@@ -3,7 +3,7 @@
 # nixos-rebuild switch --flake .#nixos
 
 {
-  description = "NixOS on Hyper-V with niri, helix, git, alacritty, rust, zsh/fish";
+  description = "NixOS";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
